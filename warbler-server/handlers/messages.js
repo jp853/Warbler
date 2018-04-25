@@ -18,7 +18,7 @@ exports.createMessage = async function(req, res, next) {
   } catch (err) {
     return next(err);
   }
-};
+}
 
 // GET - /api/users/:id/messages/:message_id
 exports.getMessage = async function(req, res, next) {
@@ -28,7 +28,7 @@ exports.getMessage = async function(req, res, next) {
   } catch (err) {
     return next(err);
   }
-};
+}
 
 // DELETE /api/users/:id/messages/:message_id
 exports.deleteMessage = async function(req, res, next) {
@@ -40,4 +40,4 @@ exports.deleteMessage = async function(req, res, next) {
   } catch (err) {
     return next(err);
   }
-};
+}
