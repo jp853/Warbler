@@ -1,8 +1,8 @@
 /*jshint esversion: 6 */
-function errorHandler(error, request, response, next){
+function errorHandler(error, request, response, next) {
   return response.status(error.status || 500).json({
     error: {
-      message: error.message || "Ops! Something went wrong."
+      message: error.message || "Oops! Something went wrong."
     }
   });
 }
