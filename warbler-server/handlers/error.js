@@ -1,0 +1,10 @@
+/*jshint esversion: 6 */
+function errorHandler(error, request, response, next){
+  return response.status(error.status || 500).json({
+    error: {
+      message: error.message || "Ops! Something went wrong."
+    }
+  });
+}
+
+module.exports = errorHandler;
