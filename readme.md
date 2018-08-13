@@ -1,4 +1,5 @@
 # Warbler Solution
+Navigate to http://warbler-client-es.herokuapp.com/ to view heroku app
 
 ## Getting started
 
